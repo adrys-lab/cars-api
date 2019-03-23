@@ -1,0 +1,36 @@
+{
+  "convertible": {
+    "condition": "EQUALS",
+    "value": true
+  },
+  "engineType": {
+    "condition": "EQUALS",
+    "value": "FUEL"
+  },
+  "licensePlate": {
+    "condition": "EQUALS",
+    "value": "wortksp"
+  },
+  "manufacturer": {
+    "country": {
+      "condition": "EQUALS",
+      "value": "Germany"
+    },
+    "description": {
+      "condition": "EQUALS",
+      "value": "description"
+    },
+    "name": {
+      "condition": "EQUALS",
+      "value": "name"
+    }
+  },
+  "rating": {
+    "condition": "EQUALS",
+    "value": 5.4
+  },
+  "seatCount": {
+    "condition": "EQUALS",
+    "value": 7
+  }
+}

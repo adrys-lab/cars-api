@@ -1,0 +1,10 @@
+{
+  "convertible": false,
+  "engineType": "HYBRID",
+  "licensePlate": "9845AAA",
+  "manufacturer": {
+    "id": 1
+  },
+  "rating": 3.50,
+  "seatCount": 5
+}

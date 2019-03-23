@@ -1,0 +1,16 @@
+{
+  "manufacturer": {
+    "country": {
+      "condition": "EQUALS",
+      "value": "Germany"
+    },
+    "description": {
+      "condition": "EQUALS",
+      "value": "description"
+    },
+    "name": {
+      "condition": "EQUALS",
+      "value": "name"
+    }
+  }
+}

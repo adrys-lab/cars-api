@@ -1,0 +1,38 @@
+server:
+  port: 8080
+  contextPath: "/"
+
+# JACKSON #
+spring:
+  jackson:
+    date-format: com.fasterxml.jackson.databind.util.ISO8601DateFormat
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+      INDENT_OUTPUT: true
+
+#Authentication Context#
+api:
+  authentication:
+    tokenHeaderKey: Authorization
+    bearerHeader: Bearer
+    secret: api_token
+    expiration: 3600000
+
+#Platform Context#
+logging.level.org.springframework.security: DEBUG
+logging.level.io.swagger.api: DEBUG
+logging.level.io.swagger.models.parameters.AbstractSerializableParameter: ERROR
+
+#Spring context
+
+#--PLATFORM--#
+spring.application.name: Cars APP - Adrian Rebollo
+
+#--CACHE--#
+spring.cache.cache-names: tokens,users,cars,drivers
+spring.cache.caffeine.spec: maximumSize=100,expireAfterAccess=1800s
+
+#--PERSISTANCE--#
+spring.jpa.show-sql: true
+spring.jpa.hibernate.ddl-auto: create-drop
+spring.h2.console.enabled: true
